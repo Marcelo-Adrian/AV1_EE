@@ -25,31 +25,31 @@ Este projeto aborda a análise de um sistema energético de referência (RES) pa
 ## Como executar:
 
 - **Passo 1:** Clone o repositório.
-   ```bash
-   git clone https://github.com/Marcelo-Adrian/AV1_EE.git
-   ```
+  ```bash
+  git clone https://github.com/Marcelo-Adrian/AV1_EE.git
+  ```
 - **Passo 2:** Inicie o ambiente virtual e ative-o.
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
 
 - **Passo 3:** Baixe os requerimentos.
-   ```bash
-   pip install matplotlib
-   ```
+  ```bash
+  pip install matplotlib
+  ```
 - **Passo 4:** Selecione qual cenário executar.
-   Caso deseje executar o cenário Business as Usual (BaU):
-   ```bash
-   python3 business.py
-   ```
-   Caso deseje executar o cenário de eletrificação:
-   ```bash
-   python3 eletric.py
-   ```
+  Caso deseje executar o cenário Business as Usual (BaU):
+  ```bash
+  python3 business.py
+  ```
+  Caso deseje executar o cenário de eletrificação:
+  ```bash
+  python3 eletric.py
+  ```
 - **Passo 5:** Desative o ambiente virtual.
-   Caso deseje executar o cenário de eletrificação:
-   ```bash
-   deactivate
-   ```
-
+  Caso deseje executar o cenário de eletrificação:
+  ```bash
+  deactivate
+  ```

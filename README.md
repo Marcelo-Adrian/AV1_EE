@@ -1,9 +1,9 @@
-# Simulação de Consumo de Energia e Emissões de CO2
+# Avaliação 1 - Economia de Energia
 
 Este projeto aborda a análise de um sistema energético de referência (RES) para avaliar cenários de consumo de energia e impactos de eletrificação no transporte. Ele projeta o consumo energético de 2023 a 2030, considerando dois cenários principais:
 
 - **Cenário Business as Usual (BaU):** Projeção do consumo com base no crescimento médio dos anos anteriores.
-- **Cenário de Eletrificação do Transporte:** Impactos da introdução de veículos elétricos no consumo de energia elétrica e emissões de CO2.
+- **Cenário de Eletrificação do Transporte:** Impactos da introdução de veículos elétricos no consumo de energia elétrica.
 
 ## Estrutura do Projeto
 
@@ -20,11 +20,36 @@ Este projeto aborda a análise de um sistema energético de referência (RES) pa
 
 3. **Resultados Gerados:**
    - Projeções de consumo de energia por setor.
-   - Impactos no custo dos combustíveis e emissões de CO2.
    - Gráficos de evolução do consumo de energia e emissões.
 
-## Tecnologias Utilizadas
+## Como executar:
 
-- **Linguagem de Programação:** Python
-- **Visualização de Dados:** Matplotlib
-- **Cálculos e Projeções:** Baseados em equações do sistema energético de referência.
+- **Passo 1:** Clone o repositório.
+   ```bash
+   git clone https://github.com/Marcelo-Adrian/AV1_EE.git
+   ```
+- **Passo 2:** Inicie o ambiente virtual e ative-o.
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+- **Passo 3:** Baixe os requerimentos.
+   ```bash
+   pip install matplotlib
+   ```
+- **Passo 4:** Selecione qual cenário executar.
+   Caso deseje executar o cenário Business as Usual (BaU):
+   ```bash
+   python3 business.py
+   ```
+   Caso deseje executar o cenário de eletrificação:
+   ```bash
+   python3 eletric.py
+   ```
+- **Passo 5:** Desative o ambiente virtual.
+   Caso deseje executar o cenário de eletrificação:
+   ```bash
+   deactivate
+   ```
+
